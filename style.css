@@ -1,0 +1,32 @@
+@import url(style/header.css);
+@import url(style/section1.css);
+
+:root {
+    --fonte-principal: "Source Sans 3", sans-serif;
+    --fonte-secundaria: "Poppins", sans-serif;
+    --branco-principal: #FFFFFF;
+    --branco-secundario:rgba(255, 255, 255, 0.507);
+    --preto-principal:#000000;
+    --botao-principal: #A56429;
+}
+
+.btn-principal {
+    width: 309px;
+    height: 72px;
+    border-radius: 27px;
+    background-color: var(--botao-principal);
+    border: none;
+     
+    
+    
+    
+}
+.btn-principal a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
