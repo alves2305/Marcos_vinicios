@@ -1,8 +1,47 @@
+/* personalizacao menu */
 .container-fluid {
-    background-color: black;
+    background-color: var(--preto-secundario);
     
 }
-.navbar {
-    background-color: black;
+.navbar , .lista-redes{
     padding: 0 !important;
 }
+.custom-offcanvas {
+    width: 300px !important;
+}
+
+/* pesonalizacao item-menu  */
+
+
+
+.nav-link {
+    color: var(--preto-principal)!important;
+    font-size: var(--fonte-secundaria)!important;
+    font-weight: 600;
+    font-size: 25px !important;
+}
+
+.redes-sociais {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.lista-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.redes-sociais li {
+    display: flex;
+    gap: 20px;
+}
+.offcanvas-title {
+    font-size: var(--fonte-secundaria)!important;
+    font-weight: 600;
+    font-size: 30px !important;
+}
+
+
+
+

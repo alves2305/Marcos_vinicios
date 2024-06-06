@@ -41,4 +41,92 @@
     font-weight: 300;
 }
 
+.navbar-desktop {
+    display: none;
+} 
 
+
+
+/* media query para desktop */
+
+@media (min-width:600px) {
+
+    /* nav-bar */
+
+    .navbar-desktop {
+        display: flex;
+        width: 100%;
+    }
+
+    .navbar-toggler , .logo-mv {
+        display: none;    
+    }
+    
+    .itens-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 90px;
+        
+    }
+    .nav-item {
+        display: flex;
+    }
+
+    .itens-desktop span {
+        display: flex;
+        gap: 30px;
+    }
+
+    
+
+    /* sectio1 */
+    .section1 {
+        
+        background-image: url('../assets/desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .itens__banner {
+        margin-right: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto__diferencial {
+        font-size: 55px;
+
+    }
+    .texto {
+        font-size: 40px;
+    }
+    .itens__banner span {
+        display: flex;
+        gap: 50px;
+    }
+    .itens__banner a {
+        font-family:var(--fonte-principal) ;
+        font-size: 32px;
+        text-decoration: none;
+        font-weight: 700;
+        color: var(--branco-secundario);
+    }
+    .texto {
+        width: 500px;
+    }
+
+    .conteudo__section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
