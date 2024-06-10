@@ -5,7 +5,7 @@
   background-image: url("../assets/fundo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -71,9 +71,7 @@
     display: flex;
   }
 
-  .nav-link img {
-    padding-right: 15px;
-  }
+  
   .nav-link {
     font-size: 23px !important;
     font-family: var(--fonte-principal);
@@ -87,8 +85,10 @@
   }
 
   /* sectio1 */
+  
   .banner {
     display: flex;
+    margin: 0 !important;
   }
   .section1 {
     background-image: url("../assets/desktop.png");
@@ -101,17 +101,18 @@
     flex-direction: column;
   }
   .banner-contain {
-    margin-right: 150px;
+    margin:0 150px 0 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
   .texto__diferencial {
-    font-size: 55px;
+    font-size: 60px !important;
   }
   .texto {
-    font-size: 40px;
+    font-size: 50px;
+    width: 700px !important;
   }
   .banner-contain span {
     display: flex;
@@ -133,13 +134,30 @@
     flex-direction: column;
     align-items: center;
   }
+  .imagem__itens-banner {
+    width: 200px;
+    height: 200px;
+    background-image: url("../assets/Logotipo_advocacia_minimalista_dourado_preto_e_branco__1_-removebg-preview\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+  .itens-desktop {
+    margin-top: 10px;
+  }
+  .imagem__itens-banner {
+    margin-top: 60px;
+  }
+  .banner {
+    margin-bottom: 50px;
+  }
 }
 
 /* Media query para desktop intervalo de 1000 e 1400px      se a tela for maior q 1000px e menor q 1400*/
 
 @media (min-width: 1000px) and (max-width :1450px) {
-    .banner {
-        font-size: 20px;
+    .section1 {
+      height: 80vh;
     }
     .links-banner {
         font-size: 20px;
@@ -149,6 +167,7 @@
     }
     .texto {
         font-size: 30px;
+        width: 500px !important;
     }
     .btn__conteudo__section1 {
         
@@ -161,14 +180,38 @@
     .conteudo__section1 {
         display: flex;
         gap: 0;
+        margin-bottom: 50px;
     }
     .elementos__conteudo__section1 {
         display: flex;
         gap: 10px;
     }
-    .img__baner-contain {
-        width: 90%;
+    
+    .imagem__itens-banner {
+      width: 150px;
+      height: 150px;
+      background-image: url("../assets/Logotipo_advocacia_minimalista_dourado_preto_e_branco__1_-removebg-preview\ 1.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+    .imagem__itens-banner {
+      margin-top: 50px;
+    }
+    .banner {
+      margin-bottom: 0;
+    }
+
+    
+    .itens-desktop {
+      margin-top: 10px;
     }
     
 }
 
+
+/* para alturas a cima de 720px */
+
+/* @media (min-hight: 750px) {
+
+} */

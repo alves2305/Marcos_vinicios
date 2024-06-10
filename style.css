@@ -1,5 +1,6 @@
 @import url(style/header.css);
 @import url(style/section1.css);
+@import url(style/section2.css);
 
 :root {
     --fonte-principal: "Source Sans 3", sans-serif;
@@ -7,15 +8,16 @@
     --branco-principal: #FFFFFF;
     --branco-secundario:rgba(255, 255, 255, 0.507);
     --preto-principal:#000000;
+    
     --preto-secundario:#161717;
-    --botao-principal: #A56429;
+    --dourado-principal: #A56429;
 }
 
 .btn-principal {
-    width: 309px;
-    height: 72px;
-    border-radius: 27px;
-    background-color: var(--botao-principal);
+    width: 250px;
+    height: 60px;
+    border-radius: 7px;
+    background-color: var(--dourado-principal);
     border: none;
      
     
@@ -27,7 +29,7 @@
     color: var(--branco-principal);
     font-family: var(--fonte-secundaria);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px !important;
 
 }
 
