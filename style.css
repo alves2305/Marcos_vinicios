@@ -1,6 +1,8 @@
 @import url(style/header.css);
 @import url(style/section1.css);
 @import url(style/section2.css);
+@import url(style/section3.css);
+@import url(style/section4.css);
 
 :root {
     --fonte-principal: "Source Sans 3", sans-serif;
@@ -8,7 +10,7 @@
     --branco-principal: #FFFFFF;
     --branco-secundario:rgba(255, 255, 255, 0.507);
     --preto-principal:#000000;
-    
+    --cinza:#F5F5F5;
     --preto-secundario:#161717;
     --dourado-principal: #A56429;
 }
@@ -19,10 +21,7 @@
     border-radius: 7px;
     background-color: var(--dourado-principal);
     border: none;
-     
-    
-    
-    
+        
 }
 .btn-principal a {
     text-decoration: none;
@@ -30,6 +29,18 @@
     font-family: var(--fonte-secundaria);
     font-weight: 700;
     font-size: 14px !important;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--fonte-secundaria);
+    color: var(--dourado-principal);
+}
+.paragrafo {
+    font-size: 17px;
+    font-family: var(--fonte-principal);
+    color: var(--preto-principal);
 
 }
 
