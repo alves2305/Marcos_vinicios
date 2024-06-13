@@ -31,6 +31,10 @@
   font-size: 2em;
   font-weight: 700;
   color: var(--branco-secundario);
+  
+}
+.texto__diferencial {
+  font-size: 39px;
 }
 .elementos__conteudo__section1 :nth-child(2),
 .elementos__conteudo__section1 :nth-child(3) {
@@ -157,7 +161,7 @@
 
 @media (min-width: 1000px) and (max-width :1450px) {
     .section1 {
-      height: 80vh;
+      height: 100vh;
     }
     .links-banner {
         font-size: 20px;

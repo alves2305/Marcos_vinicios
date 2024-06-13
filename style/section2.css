@@ -6,6 +6,7 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
+    height: 125vh;
     
 }
 .contain__section2 {
@@ -18,11 +19,12 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction:column;
+    
 }
 
-.section2 :nth-child(3) {
+/* .section2 :nth-child(3) {
     margin-bottom: 50px;
-}
+} */
 
 .contain__section2 span {
     display: flex;
@@ -48,3 +50,86 @@
     hyphens: auto;
 }
 
+
+/* para telas medias  */
+
+@media (min-width: 800px) and (max-width: 1400px) {
+    .section2 {
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto; */
+        gap: 55px;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    /* .contain__section2:nth-child(1) {
+        margin-left: 200px;
+    }
+    .contain__section2:nth-child(2) {
+        margin-right: 200px;
+    }
+
+    .contain__section2:nth-child(3) {
+        grid-column: 1 / 3;
+    } */
+    .contain__section2 h2 {
+        font-size: 20px ;
+    }
+    .contain__section2 span {
+        font-size: 25px;
+    }
+    .contain__section2 {
+        height: 244px;
+        width: 366px;
+        
+    }
+
+}
+
+/* para telas grandes */
+
+@media (min-width: 1500px) {
+    .section2 {
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+        gap: 200px;
+        
+    }
+    .contain__section2 {
+        width: 400px;
+        height: 250px;
+        
+        
+    }
+    .contain__section2 h2 {
+        text-align: center;
+        margin: 0 15px;
+        color: var(--branco-principal);
+        font-size: 20px;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        text-align: center;
+    }
+    .contain__section2 span {
+        
+        font-size: 20px;
+        font-family: var(--fonte-principal);
+        font-weight: bold;
+    }
+    
+    .section2 :nth-child(3) {
+        margin-bottom: 0px;
+    }
+    
+    
+}
