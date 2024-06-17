@@ -53,7 +53,7 @@
 
 @media (min-width: 600px) {
   /* nav-bar */
-
+  
   .navbar-desktop {
     display: flex;
     width: 100%;
@@ -98,7 +98,7 @@
     background-image: url("../assets/desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100vh !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,13 +167,14 @@
 
 @media (min-width: 1000px) and (max-width :1450px) {
     .section1 {
-      height: 100vh;
+      height: 105vh !important;
     }
     .links-banner {
         font-size: 20px;
     }
     .texto__diferencial{
         font-size: 39px !important;
+        
     }
     .texto {
         font-size: 30px;

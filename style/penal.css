@@ -1,0 +1,126 @@
+
+/* estilizacao section 1 */
+.section1-penal {
+  height: 40vh;
+  background-image: url(../assets/imagem-mobile.png);
+  background-size:contain ;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 200px;
+}
+.titulo__conteudo-penal {
+  font-family: var(--preto-principal);
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--preto-principal);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.conteudo-penal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 200px;
+  /* margin-top: 150px; */
+}
+.contain__conteudo-penal {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cinza);
+}
+.paragrafo__conteudo-penal {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 40px;
+  font-family: var(--preto-principal);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--preto-principal);
+}
+.btn-diferencial-penal {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* estilizacao section-> outras areas */
+.section-outras-areas {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  
+}
+.contain-outras-areas {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cinza);
+  padding-bottom: 50px;
+}
+.listas-outras-areas {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 0;
+}
+.itens-outras-areas {
+  display: flex;
+  width: 293px;
+  height: 54px;
+  border-radius: 7px;
+  border: solid 2px var(--dourado-principal);
+  align-items: center;
+  gap: 30px;
+}
+.itens-outras-areas img {
+  margin-left: 20px;
+}
+.links-outras-areas {
+  font-size: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--preto-principal);
+
+}
+
+
+
+
+
+/* media para desktop */
+
+@media (min-width:600px) {
+.links-banner-diferencial {
+    color: rgb(253, 253, 253);
+}
+
+.section1-penal {
+  height: 70vh;
+  background-image: url(../assets/imagem-penal-desktop.png);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner-penal {
+  position: absolute;
+  top: 20px;
+  background-color: var(--preto-principal);
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: inline;
+ 
+}  
+}

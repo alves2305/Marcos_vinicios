@@ -3,6 +3,8 @@
 @import url(style/section2.css);
 @import url(style/section3.css);
 @import url(style/section4.css);
+@import url(style/footer.css);
+@import url(style/penal.css);
 
 :root {
     --fonte-principal: "Source Sans 3", sans-serif;
