@@ -6,7 +6,7 @@
   background-size:contain ;
   background-repeat: no-repeat;
   position: relative;
-  height: 50vh;
+  height: 45vh;
   
 }
 .titulo__conteudo-penal {
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   
-  margin-bottom: 250px;
+  margin-bottom: 50px;
   /* margin-top: 150px; */
 }
 .contain__conteudo-penal {
@@ -65,7 +65,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--cinza);
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .listas-outras-areas {
   display: flex;
