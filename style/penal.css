@@ -1,11 +1,12 @@
 
 /* estilizacao section 1 */
 .section1-penal {
-  height: 100vh;
+  
   background-image: url(../assets/imagem-mobile.png);
   background-size:contain ;
   background-repeat: no-repeat;
   position: relative;
+  height: 50vh;
   
 }
 .titulo__conteudo-penal {
@@ -21,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
   margin-bottom: 250px;
   /* margin-top: 150px; */
 }
