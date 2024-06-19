@@ -82,7 +82,7 @@
   align-items: center;
   gap: 30px;
 }
-.itens-outras-areas :hover {
+.listas-outras-areas :hover {
   border: 2px solid black;
   color: #000000;
 }
