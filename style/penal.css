@@ -82,6 +82,10 @@
   align-items: center;
   gap: 30px;
 }
+.listas-outras-areas :hover {
+  
+  color: #000000;
+}
 .itens-outras-areas img {
   margin-left: 20px;
 }
